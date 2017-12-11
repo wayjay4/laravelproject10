@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/home', function () {
+Route::get('/', function () {
     return view('home');
 });
 
@@ -21,8 +21,4 @@ Route::get('/about', function() {
 
 Route::get('/contact', function() {
     return view('contact');
-});
-
-Route::get('/', function () {
-    return view('welcome');
 });
